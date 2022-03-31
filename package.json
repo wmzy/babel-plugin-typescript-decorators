@@ -54,7 +54,7 @@
     "typescript": "^4.6.3"
   },
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=14.0.0"
   },
   "conditions": {
     "BABEL_8_BREAKING": [
