@@ -22,6 +22,9 @@ yarn add --dev babel-plugin-typescript-decorators
 
 ```json
 {
+  "presets": [
+    ["@babel/preset-typescript", { "onlyRemoveTypeImports": true }]
+  ],
   "plugins": ["babel-plugin-typescript-decorators"]
 }
 ```
