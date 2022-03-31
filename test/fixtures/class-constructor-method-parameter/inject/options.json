@@ -1,0 +1,19 @@
+{
+  "sourceType": "unambiguous",
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": "chrome 70"
+        },
+        "modules": "cjs",
+        "loose": true
+      }
+    ],
+    "@babel/typescript"
+  ],
+  "plugins": [
+    "../../../../src/index.ts"
+  ]
+}

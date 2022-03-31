@@ -1,0 +1,7 @@
+{
+  "assumptions": {
+    "setPublicClassFields": true
+  },
+  "presets": [["@babel/env", { "targets": { "browsers": "ie 6" } }]],
+  "plugins": [["../../../src/index.ts", { "legacy": true }]]
+}

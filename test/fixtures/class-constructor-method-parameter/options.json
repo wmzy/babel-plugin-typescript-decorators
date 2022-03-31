@@ -1,0 +1,4 @@
+{
+  "presets": [["@babel/env", { "targets": { "browsers": "chrome 90" }}]],
+  "plugins": ["../../../src/index.ts"]
+}

@@ -1,0 +1,4 @@
+{
+  "presets": [["@babel/env", { "targets": { "browsers": "ie 6" }, "modules": false }]],
+  "plugins": ["../../../../src/index.ts"]
+}

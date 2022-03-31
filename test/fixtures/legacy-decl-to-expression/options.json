@@ -1,0 +1,4 @@
+{
+  "presets": [],
+  "plugins": [["../../../src/index.ts", { "legacy": true }]]
+}

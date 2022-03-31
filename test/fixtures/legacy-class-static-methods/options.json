@@ -1,0 +1,12 @@
+{
+  "assumptions": {
+    "setPublicClassFields": true
+  },
+  "presets": [["@babel/env", { "targets": { "browsers": "ie 6" } }]],
+  "plugins": [
+    ["../../../src/index.ts", { "legacy": true }],
+    ["babel-plugin-polyfill-es-shims", { "method": "usage-global", "targets": {
+      "node": "current"
+    }}]
+  ]
+}

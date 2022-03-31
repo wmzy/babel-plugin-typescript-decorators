@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "@babel/transform-typescript",
+    ["../../../../src/index.ts", { "legacy": true }]
+  ]
+}
