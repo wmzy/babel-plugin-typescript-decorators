@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-typescript-decorators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "wmzy",
   "license": "MIT",
   "description": "Compatible typescript decorators (with parameter decorators).",
