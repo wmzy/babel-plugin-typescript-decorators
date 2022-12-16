@@ -1,4 +1,4 @@
-# @babel/plugin-proposal-decorators
+# babel-plugin-typescript-decorators
 
 > Compatible typescript decorators (with parameter decorators).
 
