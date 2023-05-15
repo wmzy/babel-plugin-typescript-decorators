@@ -159,10 +159,12 @@ function applyTargetDecorators(path, state, decoratedProps) {
           )
         : t.nullLiteral();
 
-      node.value = t.callExpression(
-        state.addHelper("initializerWarningHelper"),
-        [descriptor, t.thisExpression()],
-      );
+      // https://github.com/babel/babel/blob/2b702573727131f4708755228bca584462b23110/packages/babel-plugin-transform-typescript/src/index.ts#L150
+      // node.value = t.callExpression(
+      //   state.addHelper("initializerWarningHelper"),
+      //   [descriptor, t.thisExpression()],
+      // );
+      node.value = null;
 
       WARNING_CALLS.add(node.value);
 
