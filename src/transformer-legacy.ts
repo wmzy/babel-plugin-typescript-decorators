@@ -166,7 +166,7 @@ function applyTargetDecorators(path, state, decoratedProps) {
       // );
       node.value = null;
 
-      WARNING_CALLS.add(node.value);
+      // WARNING_CALLS.add(node.value);
 
       acc.push(
         t.assignmentExpression(

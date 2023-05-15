@@ -22,7 +22,8 @@
   ],
   "scripts": {
     "build": "babel -x .ts src -d lib",
-    "test": "BABEL_ENV=test jest test"
+    "test": "BABEL_ENV=test jest test",
+    "postversion": "git push --follow-tags --no-verify"
   },
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.16.7"
